@@ -1,0 +1,18 @@
+{
+  "methodologyId": "VM0050",
+  "version": "1.0",
+  "status": "ACTIVE",
+  "sector": "ENERGY",
+  "outcome": [
+    "REDUCTION"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "CLEAN_COOKING"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": null,
+  "notes": "Energy efficiency and fuel-switch in cookstoves",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

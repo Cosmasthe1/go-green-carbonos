@@ -1,0 +1,24 @@
+{
+  "methodologyId": "VM0007",
+  "version": "TBD-verify-against-verra",
+  "status": "ACTIVE_FRAMEWORK",
+  "sector": "FORESTRY",
+  "outcome": [
+    "REDUCTION"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "REDD"
+  ],
+  "requiresModules": [
+    "VMD0001",
+    "VMD0002",
+    "VMD0003",
+    "VMD0004",
+    "VMD0005"
+  ],
+  "requiresTools": [],
+  "effectiveFrom": null,
+  "notes": "Modular REDD+ framework",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

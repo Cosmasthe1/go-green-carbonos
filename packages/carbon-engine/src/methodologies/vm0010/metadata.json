@@ -1,0 +1,19 @@
+{
+  "methodologyId": "VM0010",
+  "version": "TBD-verify-against-verra",
+  "status": "ACTIVE",
+  "sector": "FORESTRY",
+  "outcome": [
+    "REDUCTION",
+    "REMOVAL"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "LOGGED_TO_PROTECTED_FOREST"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": null,
+  "notes": "Baseline includes planned selective logging",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

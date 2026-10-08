@@ -1,0 +1,177 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [postgis]
+}
+
+// ---- Registry ----
+model Methodology {
+  id               String   @id @default(cuid())
+  code             String
+  version          String
+  name             String
+  status           String
+  sector           String
+  outcomeType      String
+  geographicScope  String
+  effectiveFrom    DateTime?
+  effectiveUntil   DateTime?
+  inactivationDate DateTime?
+  description      String?
+  sourceUrl        String?
+  mappings         MethodologyMapping[]
+  projectLinks     ProjectMethodology[]
+  @@unique([code, version])
+}
+
+model ClimateAction {
+  id             String @id @default(cuid())
+  actionCode     String @unique
+  name           String
+  category       String
+  sector         String
+  technology     String?
+  activityType   String?
+  emissionSource String?
+  mitigationType String?
+  removalType    String?
+  description    String?
+  mappings       MethodologyMapping[]
+  projects       Project[]
+}
+
+model MethodologyMapping {
+  id                       String @id @default(cuid())
+  climateActionId          String
+  methodologyId            String
+  mappingStatus            String
+  applicabilityScore       Float?
+  geographicConstraint     String?
+  technologyConstraint     String?
+  baselineConstraint       String?
+  additionalityRequirement String?
+  notes                    String?
+  lastReviewed             DateTime?
+  climateAction            ClimateAction @relation(fields: [climateActionId], references: [id])
+  methodology              Methodology   @relation(fields: [methodologyId], references: [id])
+}
+
+model Module {
+  id   String @id @default(cuid())
+  code String @unique
+  name String?
+}
+
+model Tool {
+  id   String @id @default(cuid())
+  code String @unique
+  name String
+}
+
+// ---- Projects & MRV ----
+model Project {
+  id              String   @id @default(cuid())
+  name            String
+  country         String
+  state           String   @default("DRAFT") // see state machine in docs
+  climateActionId String?
+  createdAt       DateTime @default(now())
+  climateAction   ClimateAction? @relation(fields: [climateActionId], references: [id])
+  methodologies   ProjectMethodology[]
+  monitoringPlans MonitoringPlan[]
+  measurements    Measurement[]
+  evidence        Evidence[]
+  calculations    Calculation[]
+  reports         Report[]
+  verifications   VerificationEvent[]
+  carbonUnits     CarbonUnit[]
+}
+
+model ProjectMethodology {
+  id                 String   @id @default(cuid())
+  projectId          String
+  methodologyId      String
+  status             String   // CANDIDATE | SELECTED | ACTIVE | TRANSITIONING | REJECTED
+  modules            String[]
+  tools              String[]
+  applicabilityStatus String  @default("PENDING")
+  additionalityStatus String  @default("PENDING")
+  baselineStatus     String   @default("PENDING")
+  lastReviewedAt     DateTime?
+  project            Project     @relation(fields: [projectId], references: [id])
+  methodology        Methodology @relation(fields: [methodologyId], references: [id])
+}
+
+model MonitoringPlan {
+  id        String @id @default(cuid())
+  projectId String
+  content   Json
+  project   Project @relation(fields: [projectId], references: [id])
+}
+
+model Measurement {
+  id        String   @id @default(cuid())
+  projectId String
+  parameter String
+  value     Float
+  unit      String
+  source    String
+  measuredAt DateTime
+  project   Project @relation(fields: [projectId], references: [id])
+  @@index([projectId, parameter, measuredAt])
+}
+
+model Evidence {
+  id                 String   @id @default(cuid())
+  projectId          String
+  parameter          String
+  storageKey         String
+  methodologyVersion String
+  capturedAt         DateTime
+  project            Project @relation(fields: [projectId], references: [id])
+}
+
+model Calculation {
+  id                 String   @id @default(cuid())
+  projectId          String
+  methodologyVersion String
+  equationVersion    String
+  inputs             Json
+  result             Json
+  operator           String?
+  calculatedAt       DateTime @default(now())
+  project            Project @relation(fields: [projectId], references: [id])
+}
+
+model Report {
+  id        String @id @default(cuid())
+  projectId String
+  period    String
+  storageKey String?
+  project   Project @relation(fields: [projectId], references: [id])
+}
+
+model VerificationEvent {
+  id        String   @id @default(cuid())
+  projectId String
+  type      String   // VALIDATION | VERIFICATION
+  outcome   String?
+  occurredAt DateTime
+  project   Project @relation(fields: [projectId], references: [id])
+}
+
+// Only populated after independent verification and registry issuance.
+model CarbonUnit {
+  id        String @id @default(cuid())
+  projectId String
+  serial    String?
+  vintage   Int?
+  quantity  Float
+  status    String // ISSUED | TRANSFERRED | RETIRED
+  project   Project @relation(fields: [projectId], references: [id])
+}

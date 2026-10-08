@@ -1,0 +1,20 @@
+{
+  "methodologyId": "VM0048",
+  "version": "1.0",
+  "status": "ACTIVE_FRAMEWORK",
+  "sector": "FORESTRY",
+  "outcome": [
+    "REDUCTION"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "AVOIDED_DEFORESTATION"
+  ],
+  "requiresModules": [
+    "VMD0055"
+  ],
+  "requiresTools": [],
+  "effectiveFrom": null,
+  "notes": "REDD framework; VMD0055 covers avoided unplanned deforestation",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

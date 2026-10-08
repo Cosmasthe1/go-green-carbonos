@@ -1,0 +1,6 @@
+gdal
+rasterio
+geopandas
+opencv-python
+torch
+numpy

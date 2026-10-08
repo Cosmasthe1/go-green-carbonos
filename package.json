@@ -1,0 +1,23 @@
+{
+  "name": "go-green-carbonos",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "db:migrate": "pnpm --filter @carbonos/database prisma migrate dev",
+    "db:generate": "pnpm --filter @carbonos/database prisma generate",
+    "registry:seed": "pnpm --filter @carbonos/database seed",
+    "infra:up": "docker compose -f infrastructure/docker/docker-compose.yml up -d"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.3.0"
+  }
+}

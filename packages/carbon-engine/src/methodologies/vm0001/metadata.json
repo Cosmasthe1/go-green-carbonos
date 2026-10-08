@@ -1,0 +1,18 @@
+{
+  "methodologyId": "VM0001",
+  "version": "1.2",
+  "status": "ACTIVE",
+  "sector": "REFRIGERANTS",
+  "outcome": [
+    "REDUCTION"
+  ],
+  "geography": "US",
+  "activityTypes": [
+    "REFRIGERANT_LEAK_DETECTION"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": null,
+  "notes": "Geographically restricted to the United States; NOT applicable to Kenya (spec s20, Rule 3)",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

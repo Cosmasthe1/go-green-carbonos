@@ -1,0 +1,14 @@
+{
+  "name": "@carbonos/evidence",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evidence engine: parameter -> source -> evidence -> timestamp -> location -> methodology version",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint src",
+    "test": "vitest run"
+  },
+  "dependencies": {}
+}

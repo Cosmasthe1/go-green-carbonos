@@ -1,0 +1,62 @@
+[
+  {
+    "actionCode": "GENERIC_EWASTE_RECYCLING",
+    "status": "NO_DIRECT_METHOD"
+  },
+  {
+    "actionCode": "ELECTRIC_CONSTRUCTION_MACHINERY",
+    "status": "NO_DIRECT_METHOD"
+  },
+  {
+    "actionCode": "GENERIC_RECYCLING",
+    "status": "NO_DIRECT_METHOD"
+  },
+  {
+    "actionCode": "PLASTIC_RECYCLING",
+    "status": "NO_DIRECT_METHOD"
+  },
+  {
+    "actionCode": "PLASTIC_COLLECTION",
+    "status": "NO_DIRECT_METHOD"
+  },
+  {
+    "actionCode": "OCEAN_CLEANUP",
+    "status": "NO_DIRECT_METHOD"
+  },
+  {
+    "actionCode": "ENVIRONMENTAL_EDUCATION",
+    "status": "NO_DIRECT_METHOD"
+  },
+  {
+    "actionCode": "CLIMATE_AWARENESS_CAMPAIGNS",
+    "status": "NO_DIRECT_METHOD"
+  },
+  {
+    "actionCode": "GENERIC_TREE_MONITORING",
+    "status": "MRV_SUPPORT"
+  },
+  {
+    "actionCode": "GENERIC_BIODIVERSITY_CONSERVATION",
+    "status": "NO_DIRECT_METHOD"
+  },
+  {
+    "actionCode": "GENERIC_EV_ADOPTION",
+    "status": "ELIGIBILITY_REQUIRED"
+  },
+  {
+    "actionCode": "CARBON_OFFSET_MARKETPLACE",
+    "status": "PLATFORM_SERVICE"
+  },
+  {
+    "actionCode": "DRONE_SURVEYING",
+    "status": "MRV_SERVICE"
+  },
+  {
+    "actionCode": "SATELLITE_MONITORING",
+    "status": "MRV_SERVICE"
+  },
+  {
+    "actionCode": "ESG_REPORTING",
+    "status": "NON_CREDIT_ACTIVITY"
+  }
+]

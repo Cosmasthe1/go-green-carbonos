@@ -1,0 +1,19 @@
+{
+  "methodologyId": "VM0043",
+  "version": "1.1",
+  "status": "ACTIVE",
+  "sector": "INDUSTRY",
+  "outcome": [
+    "REDUCTION",
+    "REMOVAL"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "CO2_UTILIZATION_CONCRETE"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": null,
+  "notes": "CO2 as feedstock in concrete production",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

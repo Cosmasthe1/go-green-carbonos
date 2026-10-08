@@ -1,0 +1,19 @@
+{
+  "methodologyId": "VM0003",
+  "version": "TBD-verify-against-verra",
+  "status": "ACTIVE",
+  "sector": "FORESTRY",
+  "outcome": [
+    "REDUCTION",
+    "REMOVAL"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "IMPROVED_FOREST_MANAGEMENT"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": null,
+  "notes": "Extension of rotation age; baseline includes clear-cutting or patch-cutting",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

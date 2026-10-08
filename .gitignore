@@ -1,0 +1,15 @@
+node_modules
+dist
+.next
+.turbo
+.env
+.env.local
+*.log
+__pycache__
+.venv
+data/satellite/*
+data/drone/*
+data/project-data/*
+!data/**/.gitkeep
+infrastructure/terraform/.terraform
+*.tfstate*

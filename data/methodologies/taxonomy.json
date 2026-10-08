@@ -1,0 +1,74 @@
+[
+  {
+    "id": "01",
+    "domain": "Energy"
+  },
+  {
+    "id": "02",
+    "domain": "Transport"
+  },
+  {
+    "id": "03",
+    "domain": "Buildings"
+  },
+  {
+    "id": "04",
+    "domain": "Industry"
+  },
+  {
+    "id": "05",
+    "domain": "Carbon Capture & Removal"
+  },
+  {
+    "id": "06",
+    "domain": "Forestry"
+  },
+  {
+    "id": "07",
+    "domain": "Agriculture"
+  },
+  {
+    "id": "08",
+    "domain": "Livestock"
+  },
+  {
+    "id": "09",
+    "domain": "Waste"
+  },
+  {
+    "id": "10",
+    "domain": "Circular Economy"
+  },
+  {
+    "id": "11",
+    "domain": "Water & Wastewater"
+  },
+  {
+    "id": "12",
+    "domain": "Refrigerants / Industrial Gases"
+  },
+  {
+    "id": "13",
+    "domain": "Renewable Energy"
+  },
+  {
+    "id": "14",
+    "domain": "Land Restoration"
+  },
+  {
+    "id": "15",
+    "domain": "Ecosystem Conservation"
+  },
+  {
+    "id": "16",
+    "domain": "Marine / Blue Carbon"
+  },
+  {
+    "id": "17",
+    "domain": "E-Waste"
+  },
+  {
+    "id": "18",
+    "domain": "Climate Adaptation / Non-carbon Actions"
+  }
+]

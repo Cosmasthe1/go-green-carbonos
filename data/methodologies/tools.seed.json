@@ -1,0 +1,22 @@
+[
+  {
+    "code": "VT0008",
+    "name": "Additionality Assessment"
+  },
+  {
+    "code": "VT0009",
+    "name": "Combined Baseline and Additionality Assessment"
+  },
+  {
+    "code": "VT0010",
+    "name": "Emissions from Electricity Consumption"
+  },
+  {
+    "code": "VT0011",
+    "name": "Electricity System Emission Factors"
+  },
+  {
+    "code": "VT0015",
+    "name": "Calculation of Reductions and Removals"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "methodologyId": "VM0049",
+  "version": "1.0",
+  "status": "ACTIVE_FRAMEWORK",
+  "sector": "CARBON_REMOVAL",
+  "outcome": [
+    "REDUCTION",
+    "REMOVAL"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "CARBON_CAPTURE_STORAGE"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": null,
+  "notes": "CCS framework; captured != removed != net removal",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

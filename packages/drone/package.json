@@ -1,0 +1,14 @@
+{
+  "name": "@carbonos/drone",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Drone MRV: orthomosaic, tree detection, height, canopy, biomass",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint src",
+    "test": "vitest run"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,18 @@
+{
+  "methodologyId": "VM0051",
+  "version": "1.1",
+  "status": "ACTIVE",
+  "sector": "AGRICULTURE",
+  "outcome": [
+    "REDUCTION"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "RICE_METHANE"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": "2026-07-14",
+  "notes": "Improved management in rice production systems",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

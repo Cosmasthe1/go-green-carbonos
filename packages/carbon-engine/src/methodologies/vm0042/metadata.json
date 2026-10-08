@@ -1,0 +1,19 @@
+{
+  "methodologyId": "VM0042",
+  "version": "2.2",
+  "status": "ACTIVE",
+  "sector": "AGRICULTURE",
+  "outcome": [
+    "REDUCTION",
+    "REMOVAL"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "AGRICULTURAL_LAND_MANAGEMENT"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": null,
+  "notes": "Improved agricultural land management; GHG reductions + SOC removals",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

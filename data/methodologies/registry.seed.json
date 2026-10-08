@@ -1,0 +1,326 @@
+[
+  {
+    "methodologyId": "VM0001",
+    "version": "1.2",
+    "status": "ACTIVE",
+    "sector": "REFRIGERANTS",
+    "outcome": [
+      "REDUCTION"
+    ],
+    "geography": "US",
+    "activityTypes": [
+      "REFRIGERANT_LEAK_DETECTION"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": null,
+    "notes": "Geographically restricted to the United States; NOT applicable to Kenya (spec s20, Rule 3)",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0003",
+    "version": "TBD-verify-against-verra",
+    "status": "ACTIVE",
+    "sector": "FORESTRY",
+    "outcome": [
+      "REDUCTION",
+      "REMOVAL"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "IMPROVED_FOREST_MANAGEMENT"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": null,
+    "notes": "Extension of rotation age; baseline includes clear-cutting or patch-cutting",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0007",
+    "version": "TBD-verify-against-verra",
+    "status": "ACTIVE_FRAMEWORK",
+    "sector": "FORESTRY",
+    "outcome": [
+      "REDUCTION"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "REDD"
+    ],
+    "requiresModules": [
+      "VMD0001",
+      "VMD0002",
+      "VMD0003",
+      "VMD0004",
+      "VMD0005"
+    ],
+    "requiresTools": [],
+    "effectiveFrom": null,
+    "notes": "Modular REDD+ framework",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0010",
+    "version": "TBD-verify-against-verra",
+    "status": "ACTIVE",
+    "sector": "FORESTRY",
+    "outcome": [
+      "REDUCTION",
+      "REMOVAL"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "LOGGED_TO_PROTECTED_FOREST"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": null,
+    "notes": "Baseline includes planned selective logging",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0038",
+    "version": "1.1",
+    "status": "ACTIVE",
+    "sector": "TRANSPORT",
+    "outcome": [
+      "REDUCTION"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "EV_CHARGING"
+    ],
+    "requiresModules": [
+      "VMD0049"
+    ],
+    "requiresTools": [
+      "VT0008",
+      "VT0011"
+    ],
+    "effectiveFrom": "2026-08-19",
+    "notes": "EV charging systems displacing fossil-fuel transport; do NOT auto-assign to electric construction machinery",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0041",
+    "version": "2.0",
+    "status": "ACTIVE",
+    "sector": "LIVESTOCK",
+    "outcome": [
+      "REDUCTION"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "ENTERIC_METHANE_FEED_INGREDIENTS"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": null,
+    "notes": "Feed ingredients reducing enteric methane from ruminants",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0042",
+    "version": "2.2",
+    "status": "ACTIVE",
+    "sector": "AGRICULTURE",
+    "outcome": [
+      "REDUCTION",
+      "REMOVAL"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "AGRICULTURAL_LAND_MANAGEMENT"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": null,
+    "notes": "Improved agricultural land management; GHG reductions + SOC removals",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0043",
+    "version": "1.1",
+    "status": "ACTIVE",
+    "sector": "INDUSTRY",
+    "outcome": [
+      "REDUCTION",
+      "REMOVAL"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "CO2_UTILIZATION_CONCRETE"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": null,
+    "notes": "CO2 as feedstock in concrete production",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0044",
+    "version": "1.2",
+    "status": "ACTIVE",
+    "sector": "CARBON_REMOVAL",
+    "outcome": [
+      "REMOVAL"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "BIOCHAR"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": "2025-06-27",
+    "notes": "Biochar in soil and non-soil applications; new production facilities",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0047",
+    "version": "1.1",
+    "status": "ACTIVE",
+    "sector": "FORESTRY",
+    "outcome": [
+      "REMOVAL"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "AFFORESTATION_REFORESTATION_REVEGETATION"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": "2025-05-14",
+    "notes": "ARR; area-based approach using remote sensing and plot sampling",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0048",
+    "version": "1.0",
+    "status": "ACTIVE_FRAMEWORK",
+    "sector": "FORESTRY",
+    "outcome": [
+      "REDUCTION"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "AVOIDED_DEFORESTATION"
+    ],
+    "requiresModules": [
+      "VMD0055"
+    ],
+    "requiresTools": [],
+    "effectiveFrom": null,
+    "notes": "REDD framework; VMD0055 covers avoided unplanned deforestation",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0049",
+    "version": "1.0",
+    "status": "ACTIVE_FRAMEWORK",
+    "sector": "CARBON_REMOVAL",
+    "outcome": [
+      "REDUCTION",
+      "REMOVAL"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "CARBON_CAPTURE_STORAGE"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": null,
+    "notes": "CCS framework; captured != removed != net removal",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0050",
+    "version": "1.0",
+    "status": "ACTIVE",
+    "sector": "ENERGY",
+    "outcome": [
+      "REDUCTION"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "CLEAN_COOKING"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": null,
+    "notes": "Energy efficiency and fuel-switch in cookstoves",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VM0051",
+    "version": "1.1",
+    "status": "ACTIVE",
+    "sector": "AGRICULTURE",
+    "outcome": [
+      "REDUCTION"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "RICE_METHANE"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": "2026-07-14",
+    "notes": "Improved management in rice production systems",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VMR0016",
+    "version": "1.0",
+    "status": "ACTIVE",
+    "sector": "WASTE",
+    "outcome": [
+      "REDUCTION"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "LANDFILL_GAS"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": "2025-11-21",
+    "notes": "Replaces ACM0001 and AMS-III.G as standalone from 2026-12-01",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VMR0017",
+    "version": "1.0",
+    "status": "ACTIVE",
+    "sector": "ENERGY",
+    "outcome": [
+      "REDUCTION"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "GRID_CONNECTED_RENEWABLE"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": "2026-04-23",
+    "notes": "Grid-connected renewables incl. storage; off-grid needs separate assessment",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  },
+  {
+    "methodologyId": "VMR0018",
+    "version": "TBD-verify-against-verra",
+    "status": "ACTIVE",
+    "sector": "WASTE",
+    "outcome": [
+      "REDUCTION"
+    ],
+    "geography": "GLOBAL",
+    "activityTypes": [
+      "WASTEWATER_MANURE_SOLIDS_SEPARATION"
+    ],
+    "requiresModules": [],
+    "requiresTools": [],
+    "effectiveFrom": "2026-06-03",
+    "notes": "Volatile solids separation; AMS-III.Y inactive as standalone from 2027-07-01",
+    "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+  }
+]

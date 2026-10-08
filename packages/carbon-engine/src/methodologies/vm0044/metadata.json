@@ -1,0 +1,18 @@
+{
+  "methodologyId": "VM0044",
+  "version": "1.2",
+  "status": "ACTIVE",
+  "sector": "CARBON_REMOVAL",
+  "outcome": [
+    "REMOVAL"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "BIOCHAR"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": "2025-06-27",
+  "notes": "Biochar in soil and non-soil applications; new production facilities",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

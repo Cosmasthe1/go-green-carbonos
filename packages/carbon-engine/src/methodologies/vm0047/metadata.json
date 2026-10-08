@@ -1,0 +1,18 @@
+{
+  "methodologyId": "VM0047",
+  "version": "1.1",
+  "status": "ACTIVE",
+  "sector": "FORESTRY",
+  "outcome": [
+    "REMOVAL"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "AFFORESTATION_REFORESTATION_REVEGETATION"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": "2025-05-14",
+  "notes": "ARR; area-based approach using remote sensing and plot sampling",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

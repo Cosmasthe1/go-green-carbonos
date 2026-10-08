@@ -1,0 +1,54 @@
+[
+  {
+    "code": "ACM0010",
+    "status": "ACTIVE_CDM",
+    "sector": "WASTE",
+    "notes": "Manure management; evaluate new consolidated methodology first, else this"
+  },
+  {
+    "code": "AMS-III.D",
+    "status": "ACTIVE_CDM",
+    "sector": "WASTE",
+    "notes": "Methane recovery in animal manure management"
+  },
+  {
+    "code": "ACM0014",
+    "status": "ACTIVE_CDM",
+    "sector": "WASTE",
+    "notes": "Treatment of wastewater"
+  },
+  {
+    "code": "AMS-III.H",
+    "status": "ACTIVE_CDM",
+    "sector": "WASTE",
+    "notes": "Methane recovery in wastewater treatment"
+  },
+  {
+    "code": "AMS-III.Y",
+    "status": "TRANSITIONING",
+    "sector": "WASTE",
+    "inactivation": "2027-07-01",
+    "notes": "Use VMR0018 for new projects where applicable"
+  },
+  {
+    "code": "ACM0001",
+    "status": "TRANSITIONING",
+    "sector": "WASTE",
+    "inactivation": "2026-12-01",
+    "notes": "Replaced by VMR0016"
+  },
+  {
+    "code": "AMS-III.G",
+    "status": "TRANSITIONING",
+    "sector": "WASTE",
+    "inactivation": "2026-12-01",
+    "notes": "Replaced by VMR0016"
+  },
+  {
+    "code": "AMS-III.BA",
+    "status": "LEGACY",
+    "sector": "WASTE",
+    "inactivation": "2023-09-04",
+    "notes": "E-waste; inactive standalone. Spec says new projects use VMR0008 with AMS-III.BA where applicable - verify"
+  }
+]

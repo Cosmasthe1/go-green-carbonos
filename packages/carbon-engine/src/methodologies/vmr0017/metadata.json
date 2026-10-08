@@ -1,0 +1,18 @@
+{
+  "methodologyId": "VMR0017",
+  "version": "1.0",
+  "status": "ACTIVE",
+  "sector": "ENERGY",
+  "outcome": [
+    "REDUCTION"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "GRID_CONNECTED_RENEWABLE"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": "2026-04-23",
+  "notes": "Grid-connected renewables incl. storage; off-grid needs separate assessment",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}

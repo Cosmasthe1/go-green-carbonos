@@ -1,0 +1,18 @@
+{
+  "methodologyId": "VMR0016",
+  "version": "1.0",
+  "status": "ACTIVE",
+  "sector": "WASTE",
+  "outcome": [
+    "REDUCTION"
+  ],
+  "geography": "GLOBAL",
+  "activityTypes": [
+    "LANDFILL_GAS"
+  ],
+  "requiresModules": [],
+  "requiresTools": [],
+  "effectiveFrom": "2025-11-21",
+  "notes": "Replaces ACM0001 and AMS-III.G as standalone from 2026-12-01",
+  "source": "Go Green CarbonOS spec v1.0 - verify against official Verra catalogue"
+}
